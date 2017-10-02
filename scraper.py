@@ -44,7 +44,7 @@ class Scrape:
         with open(self.file_name, 'a+', encoding='utf8') as f:
             while True:
                 try:
-                    f.write(self.content_queue.pop=())
+                    f.write(self.content_queue.pop())
                 except:
                     break
         # pool = ThreadPool()
